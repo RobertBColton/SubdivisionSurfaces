@@ -146,7 +146,7 @@ func set_mesh_node_mesh(mesh):
 func _ready():
 	#var surfTool = SurfaceTool.new()
 	#surfTool.create_from(meshNode.mesh, 0)
-	var surfTool = read_obj_mesh("res://bunny.obj")
+	var surfTool = read_obj_mesh("res://Models/bunny.obj")
 	surfTool.generate_normals()
 	set_mesh_node_mesh(surfTool.commit())
 	controlMesh = meshNode.mesh.duplicate()
