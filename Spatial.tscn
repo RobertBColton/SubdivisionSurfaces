@@ -28,8 +28,8 @@ popup_exclusive = true
 window_title = "Open a File"
 mode = 0
 access = 2
-current_dir = "C:/Users/Owner/Desktop/Projects/SubdivisionSurfaces"
-current_path = "C:/Users/Owner/Desktop/Projects/SubdivisionSurfaces/"
+current_dir = "C:/Users/Owner/Documents/Projects/SubdivisionSurfaces"
+current_path = "C:/Users/Owner/Documents/Projects/SubdivisionSurfaces/"
 
 [node name="StatePanel" type="PanelContainer" parent="Control"]
 anchor_top = 1.0
